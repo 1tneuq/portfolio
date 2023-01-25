@@ -1,0 +1,274 @@
+html {
+    box-sizing: border-box;
+	 height:100%;
+}
+.clearfix:after {
+    content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing:inherit;
+}
+.topbar {
+    background-color: #262626;
+    text-align:center;
+    padding:10px 0 10px 0;
+}
+.topbar h1 {
+    color:#cccfd2;
+    font-size:27px;
+    margin:0;
+    font-weight: bold;
+}
+body {
+    margin:0;
+    padding:0;
+    background: #EEE url("hacker2.jpg") no-repeat scroll right top;
+    background-size: 2450px auto;
+}
+
+
+
+
+.logo {
+    
+    border-bottom: 1px solid #E3E3E3;
+    background-color:white;
+}
+.logo ul {
+    text-align:center;
+    color:#95989A;
+    text-transform:normal;
+    margin:0;
+    padding:20px 0;
+    font-weight:normal;
+    font-size:30px;
+}
+.logo h2 {
+    margin:0;
+    padding:0 0 0 500px;
+    font-weight:normal;
+}
+
+.c-menu ul {
+    width:360px;
+    margin:0 auto;
+    list-style:none;
+    padding:0;
+}
+.c-menu ul li {
+    display:inline-block;
+    margin:0 5px;
+}
+.c-menu ul li a {
+    text-transform:normal;
+    color:#66539e;
+    font-size:20px;
+    text-decoration:none;
+    display:inline-block;
+    padding:15px 0;
+}
+.c-menu {
+    box-shadow:0px 2px 5px 0px rgba(0,0,0,0.15);
+    background-color:white;
+}
+.c-menu ul li a:hover, .c-menu ul li a.active {
+    border-bottom: 4px solid #66539e;
+}
+
+.logo {
+    text-align: center;
+    background-color: black;
+}
+.c .p {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.c .p .col_left {
+    width: 290px;
+    float: left;
+}
+.c .p .col_right {
+    width: 590px;
+    float: left;
+}
+.c .p .col_left .bloc {
+    background-color: #fff;
+}
+.c .p .col_left .bloc .titre-bloc {
+     border-bottom: 1px solid #E3E3E3;
+     background-color:white;
+     text-align: left;
+     color:#356590;
+     text-transform:none;
+     margin:0 0 0 10px;
+     padding:10px 0;
+     font-weight: bold;
+     font-size:16px;
+}
+
+
+.reset_ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.contenu_bloc li {
+    margin-bottom: 10px;
+}
+
+.contenu_bloc {
+    padding: 10px;
+}
+.contenu_bloc a {
+    text-decoration: none;
+    color: #4667ff;
+}
+.bloc {
+    margin-bottom: 10px;
+}
+.c .p .col_right .titre-bloc2 {
+    border-bottom: 1px solid #E3E3E3;
+    background-color:white;
+    text-align: center;
+    color:#356590;
+    text-transform:none;
+    margin:0 0 0 10px;
+    padding:10px 0;
+    font-weight: bold;
+    font-size:25px;
+	line-height: 20px;
+}
+
+.col_right .contenu-bloc {
+    border-bottom: 1px solid #E3E3E3;
+    background-color: white;
+    text-align: center;
+    color: dimgrey;
+    text-transform: none;
+    margin: 0 0 0 10px;
+    padding: 10px 0;
+    font-weight: bold;
+    font-size: 13px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.contenu-bloc .paragraphe1 {
+    font-size: 22px;
+    font-family: "Lucida Sans Unicode";
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
+    color:#356590;
+}
+.footer {
+    background-color: black;
+    color: white;
+    padding: 65px 0 65px 0;
+    height: 350px;
+}
+
+.footer-gauche {
+    text-align: center;
+}
+
+#searchbar{
+    position:relative;
+    width:;
+    height:auto;
+    display:inline-block;
+}
+#searchbar .text{
+    width:300px;
+    float:left;
+    text-align:left;
+}
+#searchbar .champ{
+    width:300px;
+    height:35px;
+    float:left;
+}
+#searchbar .bouton{
+    width: 80px;
+    height: 35px;
+    padding: 0;
+    border:none;
+    float:left;
+}
+.textwidget p {
+    line-height: 25px;
+}
+
+.footer-gauche .paragraphe2 {
+    text-align: center;
+    color: white;
+}
+
+.colonne1 {
+    float: left;
+    width: 33%;
+    margin-left: 25px;
+}
+.colonne2 {
+    float: right;
+    width: 33%;
+}
+.centre {
+    overflow: hidden;
+    margin-right: 500px;
+    margin-top: 50px;
+}
+.footer-gauche h2 {
+    margin-top: 30px;
+}
+.copyright .copyrighttext{
+    color: black;
+    text-align: center;
+    font-family: "Microsoft JhengHei UI Light";
+}
+.copyright {
+    background-color: silver;
+    height: 65px;
+    padding-top: 29px;
+}
+.paragraphe1 a {
+    text-decoration: underline;
+    color: #356590;
+}
+
+.cssform p{
+    width: 300px;
+    clear: left;
+    margin: 0;
+    padding: 5px 0 8px 0;
+    padding-left: 155px; /*width of left column containing the label elements*/
+    border-top: 1px dashed gray;
+    height: 1%;
+}
+
+.cssform label{
+    font-weight: bold;
+    float: left;
+    margin-left: -155px; /*width of left column*/
+    width: 150px; /*width of labels. Should be smaller than left column (155px) to create some right margin*/
+}
+
+.cssform input[type=&quot;text&quot;]{ /*width of text boxes. IE6 does not understand this attribute*/
+    width: 180px;
+}
+
+.cssform textarea{
+    width: 250px;
+    height: 150px;
+}
+
+* html .threepxfix{
+    margin-left: 3px;
+}
